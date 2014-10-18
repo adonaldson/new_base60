@@ -11,6 +11,8 @@ module NewBase60
     end
 
     def to_sxg
+      return value.to_s if value < 10
+
       output = []
       nn = value
 

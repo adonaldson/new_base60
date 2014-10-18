@@ -8,6 +8,8 @@ RSpec.describe 'NewBase60::Base10' do
     end
 
     it 'returns correct values for single values' do
+      expect(NewBase60::Base10.new(0).to_sxg).to eq '0'
+
       (1..9).each do |value|
         expect(NewBase60::Base10.new(value).to_sxg).to eq value.to_s
       end
@@ -69,6 +71,5 @@ RSpec.describe 'NewBase60::Base10' do
       expect(NewBase60::Base10.new(14764).to_sxg).to eq '464'
       expect(NewBase60::Base10.new(147124).to_sxg).to eq 'fs4'
     end
-
   end
 end
