@@ -63,12 +63,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install new_base60
-``
 
 # Credits
 ## Contributors
 
 * [Original Idea](http://tantek.com/w/NewBase60 "tantek / NewBase60") : [Tantek Çelik](http://tantek.com "tantek.com") ([@tantek](https://github.com/tantek))
+* This Ruby Port : [Andrew Donaldson](http://adonaldson.co.uk) ([@adonaldson](https://github.com/adonaldson))
 * Other Ruby Port : [Shane Becker](http://iamshane.com "I&#x27;m Shane Becker") ([@veganstraightedge](https://github.com/veganstraightedge))
 
 ## License
