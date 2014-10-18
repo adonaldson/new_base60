@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = NewBase60::VERSION
   spec.authors       = ["Andrew Donaldson"]
   spec.email         = ["andrew@desto.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Library to ease converting between NewBase60 and Fixnums, dates}
+  spec.description   = %q{NewBase60 is useful as part of a personal URL shortener which itself is an important component of a POSSE (http://indiewebcamp.com/POSSE)}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = "Public Domain"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.1.0"
+  spec.add_development_dependency "rspec", "~> 3.1"
 end
