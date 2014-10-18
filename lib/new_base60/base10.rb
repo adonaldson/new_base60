@@ -2,7 +2,7 @@ module NewBase60
   class Base10
     attr_reader :value
 
-    def initialize(value, args = {})
+    def initialize(value)
       @value = value
     end
 
