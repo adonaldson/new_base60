@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../lib/new_base60'
+require_relative '../lib/new_base60/base10'
 
 RSpec.describe 'NewBase60::Base10' do
   describe 'to_sxg' do
@@ -65,8 +65,9 @@ RSpec.describe 'NewBase60::Base10' do
     end
 
     it 'converts base 10 to base 60' do
+      expect(NewBase60::Base10.new(60).to_sxg).to eq '10'
       expect(NewBase60::Base10.new(14764).to_sxg).to eq '464'
-      expect(NewBase60::Base10.new(12345).to_sxg).to eq 'kR3'
+      expect(NewBase60::Base10.new(147124).to_sxg).to eq 'fs4'
     end
 
   end
