@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["andrew@desto.net"]
   spec.summary       = %q{Library to ease converting between NewBase60 and Fixnums, dates}
   spec.description   = %q{NewBase60 is useful as part of a personal URL shortener which itself is an important component of a POSSE (http://indiewebcamp.com/POSSE)}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/adonaldson/new_base60"
   spec.license       = "Public Domain"
 
   spec.files         = `git ls-files -z`.split("\x0")
